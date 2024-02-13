@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+background-image: url(background.jpg);
+background-size: 100%;
+}
+
+.logo{
+    width: 17%;
+    height: 10%;
+    margin-right: 100px;
+    margin-left: 400px;
+    margin-top: 95px;
+    }
+    
+h1{
+    color: lime;
+    text-align: center;
+}
+/* Corpo Principale */
+div{
+    height: 700px;
+    width: 950px;
+    background-color: rgba(0,0,0,0.4);
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+span{
+     width: 750px;
+    line-height: 35px;
+    background-color: lime;
+    margin-left: 110px;
+    margin-right: 150px;
+    display: block;   
+}
+    /* Pulsanti selezione opzione */
+
+
+.Prenota{
+margin-left: 220px;
+padding: 0px;
+}
+.Terminaprenotazione{
+    margin-left: 10px;
+    padding: 0px;
+}
+.Accendiluci{
+    margin-left: 10px;
+    padding: 0px;
+}
+
+/* Testo posizione monopattini e checkbox */
+
+
+h3{
+    display: inline-block;
+    color: white;
+margin-top: 20px;
+}
+input[type=checkbox]{
+    margin-left: 110px;
+}
+p{
+    color: white;
+    margin-left: 110px;
+}
+
+
+/* Batteria Monopattini */
+
+
+.Carica1{
+    margin-left: 110px;
+    height: 25px;
+    background-color: orange;
+    width: 250px;
+    border-radius: 10px 10px 10px 10px; 
+    margin-top: 2px;
+}
+.Carica2{
+    margin-left: 110px;
+    height: 25px;
+    background-color: green;
+    width: 390px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 2px;
+}
+.Carica3{
+    margin-left: 110px;
+    height: 25px;
+    background-color: crimson;
+    width: 180px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 2px;
+}
+
+
+
+
